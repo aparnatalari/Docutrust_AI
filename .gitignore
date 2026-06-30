@@ -1,14 +1,26 @@
-node_modules/
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-dist/
-build/
-vectorstore/
-uploads/
-*.log
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Uploads
+backend/uploads/
+backend/vector_store/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
 .DS_Store
-*.egg-info/
-.pytest_cache/
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

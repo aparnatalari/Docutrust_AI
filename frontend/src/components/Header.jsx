@@ -17,7 +17,7 @@ const Header = ({ docCount }) => {
             <div style={styles.iconPulse} />
           </div>
           <div>
-            <h1 style={styles.title}>KNOWLEDGE<span style={styles.titleAccent}>_AI</span></h1>
+            <h1 style={styles.title}>Docutrust<span style={styles.titleAccent}>_AI</span></h1>
             <p style={styles.subtitle}>RAG-Powered Document Intelligence</p>
           </div>
         </motion.div>
